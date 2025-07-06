@@ -1,0 +1,23 @@
+--- Multinomial_NB Model Performance Report for dataset1.csv ---
+
+Total time for this run: 0.57 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.9423 (+/- 0.0449)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 0.9657
+Precision (Weighted): 0.9658
+Recall (Weighted): 0.9657
+F1-Score (Weighted): 0.9656
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      3841            67             
+[Actual Malicious] 145             2131           
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.

@@ -1,0 +1,23 @@
+--- Gaussian_NB Model Performance Report for dataset2.csv ---
+
+Total time for this run: 2.85 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.9867 (+/- 0.0036)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 0.9933
+Precision (Weighted): 0.9934
+Recall (Weighted): 0.9933
+F1-Score (Weighted): 0.9933
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      671             7              
+[Actual Malicious] 0               362            
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.

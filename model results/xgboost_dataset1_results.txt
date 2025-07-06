@@ -1,0 +1,23 @@
+--- XGBoost Model Performance Report for dataset1.csv ---
+
+Total time for this run: 7.15 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.9742 (+/- 0.0385)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 0.9942
+Precision (Weighted): 0.9942
+Recall (Weighted): 0.9942
+F1-Score (Weighted): 0.9942
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      3905            3              
+[Actual Malicious] 33              2243           
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.

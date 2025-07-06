@@ -1,0 +1,23 @@
+--- Decision_Tree Model Performance Report for dataset1.csv ---
+
+Total time for this run: 35.67 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.7788 (+/- 0.2361)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 0.8178
+Precision (Weighted): 0.8775
+Recall (Weighted): 0.8178
+F1-Score (Weighted): 0.8205
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      2784            1124           
+[Actual Malicious] 3               2273           
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.

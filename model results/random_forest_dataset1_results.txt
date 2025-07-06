@@ -1,0 +1,23 @@
+--- Random_Forest Model Performance Report for dataset1.csv ---
+
+Total time for this run: 363.98 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.7716 (+/- 0.2531)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 0.8136
+Precision (Weighted): 0.8757
+Recall (Weighted): 0.8136
+F1-Score (Weighted): 0.8163
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      2758            1150           
+[Actual Malicious] 3               2273           
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.

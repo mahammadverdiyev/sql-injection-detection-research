@@ -1,0 +1,23 @@
+--- KNN Model Performance Report for dataset1.csv ---
+
+Total time for this run: 25.20 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.6983 (+/- 0.2618)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 0.7382
+Precision (Weighted): 0.8344
+Recall (Weighted): 0.7382
+F1-Score (Weighted): 0.7394
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      2340            1568           
+[Actual Malicious] 51              2225           
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.

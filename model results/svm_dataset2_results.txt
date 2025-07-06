@@ -1,0 +1,23 @@
+--- SVM Model Performance Report for dataset2.csv ---
+
+Total time for this run: 2.55 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.9785 (+/- 0.0356)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 1.0000
+Precision (Weighted): 1.0000
+Recall (Weighted): 1.0000
+F1-Score (Weighted): 1.0000
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      678             0              
+[Actual Malicious] 0               362            
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.

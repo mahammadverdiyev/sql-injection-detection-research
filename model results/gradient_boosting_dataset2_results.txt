@@ -1,0 +1,23 @@
+--- Gradient_Boosting Model Performance Report for dataset2.csv ---
+
+Total time for this run: 29.42 seconds
+
+--- Model Evaluation (Cross-Validation) ---
+Mean 5-Fold CV Accuracy: 0.9927 (+/- 0.0071)
+
+--- Detailed Performance on Held-out Test Set ---
+Accuracy: 0.9962
+Precision (Weighted): 0.9962
+Recall (Weighted): 0.9962
+F1-Score (Weighted): 0.9961
+
+--- Confusion Matrix ---
+      [Predicted Safe] [Predicted Malicious]
+[Actual Safe]      678             0              
+[Actual Malicious] 4               358            
+
+--- Confusion Matrix Key ---
+ - TN: Correctly identified SAFE queries.
+ - FP: SAFE queries incorrectly flagged as MALICIOUS.
+ - FN: MALICIOUS queries that were missed (classified as SAFE).
+ - TP: Correctly identified MALICIOUS queries.
